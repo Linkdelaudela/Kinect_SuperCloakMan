@@ -1,0 +1,19 @@
+﻿<Window x:Class="projet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:my="clr-namespace:projet"
+        Title="Super Cloak Man" Loaded="WindowLoaded" Name="Window" WindowState="Maximized">
+	<!---->
+	<Window.Resources>
+	</Window.Resources>
+    <Grid>
+		<Viewbox HorizontalAlignment="Left">
+			<Canvas Name="canvas" Width="760" Height="480" HorizontalAlignment="Left" >
+				<Image Name="background" Source="{Binding Path=background}" Canvas.Left="{Binding Path=position}" />
+				<Image Name="bonus" Source="{Binding Path=skin}" Canvas.Left="{Binding Path=positionX}" Canvas.Top="{Binding Path=positionY}" Height="20" Width="20"  />
+				<Image Name="malus" Source="{Binding Path=skin}" Canvas.Left="{Binding Path=position}" />
+				<Image Name="personnage" Canvas.Left="{Binding Path=positionX}" Canvas.Top="{Binding Path=positionY}"  Height="60" Width="70" Source="{Binding skin}"/>
+			</Canvas>
+		</Viewbox>
+	</Grid>
+</Window>
