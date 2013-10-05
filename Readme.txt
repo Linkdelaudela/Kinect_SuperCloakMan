@@ -1,4 +1,4 @@
-This program was created during my second year of computer science degree.
+This program was created during my 2 year degree in computer science.
 It's a simple video game, created in 6 weeks, as a simple "code and forget" project.
 
 The program use the official Kinect drivers from Microsoft, which means only the kinect "For Pc" can be used.
