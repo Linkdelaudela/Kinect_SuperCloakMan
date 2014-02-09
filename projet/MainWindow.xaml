@@ -6,7 +6,7 @@
 	<!---->
 	<Window.Resources>
 	</Window.Resources>
-    <Grid>
+        <Grid>
 		<Viewbox HorizontalAlignment="Left">
 			<Canvas Name="canvas" Width="760" Height="480" HorizontalAlignment="Left" >
 				<Image Name="background" Source="{Binding Path=background}" Canvas.Left="{Binding Path=position}" />
